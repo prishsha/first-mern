@@ -1,0 +1,38 @@
+.create-page{
+    max-width:600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.create-page h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background-color: #fff;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-group input{
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.input-group button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

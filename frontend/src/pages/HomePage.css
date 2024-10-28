@@ -1,0 +1,36 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+.vstack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.page-title{
+    font-size: 35px;
+}
+
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    width: 100%;
+}
+
+.no-products{
+    font-size: 1.25rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.create-product-link{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
